@@ -45,10 +45,10 @@
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">Foozy<span class="span">.</span></a>
+        <a href="#" class="logo" id="foozy">Foozy<span class="span">.</span></a>
       </h1>
 
-      <nav class="navbar" data-navbar>
+      <nav class="navbar avbar-expand-lg" data-navbar>
         <ul class="navbar-list">
 
           <li class="nav-item">
@@ -80,12 +80,15 @@
         </button>
 
         <button class="btn btn-hover">Reservation</button>
-
-        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
-          <span class="line top"></span>
-          <span class="line middle"></span>
-          <span class="line bottom"></span>
-        </button>
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="#food-menu">About us</a>
+            <a href="#food-menu">Shop</a>
+            <a href="#food-menu">Blog</a>
+            <a href="#food-menu">Contact Us</a>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -367,16 +370,12 @@
             </ul>
 
             <button class="btn btn-hover">Walk In</button>
-            
+
           </div>
           <button class="btn btn-hover">Order Now</button>
 
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #FOOD MENU
